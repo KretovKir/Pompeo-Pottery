@@ -1,0 +1,34 @@
+.footer {
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: rem(28px) auto rem(28px) auto;
+  width: 95%;
+}
+
+.footer__text {
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.footer__telephone {
+  font-size: rem(21px);
+  line-height: rem(21px);
+}
+
+.socials__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
