@@ -3,14 +3,14 @@
 
 const init = () => {
   myMap = new ymaps.Map("map-block", {
-    center: [55.751, 37.577555],
-    zoom: 16.73,
+    center: [54.509805, 36.274478],
+    zoom: 16.92,
     controls: [],
     
   });
 
   const coords = [
-    [55.751776, 37.577555],
+    [54.509525, 36.273786],
   ];
 
   const myCollection = new ymaps.GeoObjectCollection(
